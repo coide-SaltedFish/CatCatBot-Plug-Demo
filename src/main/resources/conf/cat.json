@@ -1,0 +1,6 @@
+{
+    "name":"撤回插件",
+    "packPaths": [
+        "org.catcat.sereinfish.recall"
+    ]
+}
