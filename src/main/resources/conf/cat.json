@@ -2,5 +2,11 @@
     "name":"撤回插件",
     "packPaths": [
         "org.catcat.sereinfish.recall"
-    ]
+    ],
+    "authors": [
+        "一只大猫条"
+    ],
+    "description": "这是一个测试插件",
+    "version": "测试版本",
+    "schemaVersion": 0
 }
