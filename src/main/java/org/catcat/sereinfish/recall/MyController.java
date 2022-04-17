@@ -18,6 +18,8 @@ public class MyController {
     @Action("撤回")
     @QMsg(mastAtBot = true)
     public void recall(long group){
+        logger.info("撤回指令响应");
+
         Stack<MsgData> stack = msgStack.getMsgMap().getOrDefault(group, new Stack<>());
         //检查是否有需要弹出的消息
         while (!stack.isEmpty() && stack.peek().getTime() < System.currentTimeMillis() - msgStack.getMaxTime()){
@@ -36,6 +38,8 @@ public class MyController {
     @Action("撤回所有")
     @QMsg(mastAtBot = true)
     public void recallAll(long group){
+        logger.info("撤回所有指令响应");
+
         Stack<MsgData> stack = msgStack.getMsgMap().getOrDefault(group, new Stack<MsgData>());
 
         //检查是否有需要弹出的消息
