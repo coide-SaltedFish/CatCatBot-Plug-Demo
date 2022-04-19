@@ -6,6 +6,7 @@
     "authors": [
         "一只大猫条"
     ],
+    "spaceName": "catcat.recall",
     "description": "这是一个测试插件",
     "version": "测试版本",
     "schemaVersion": 0

@@ -14,7 +14,6 @@ public class TestService {
 
     @Transactional
     public void save(TestEntity entity){
-        System.out.println("数据保存");
         dao.save(entity);
     }
 
